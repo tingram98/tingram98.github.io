@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/*plain background good for now - coming back to change up some styling*/
+img{
+  border-radius: 80%;;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:300px;
+  width:300px;
+}
+#navbar ul{
+  list-style: none;
+  display: flex;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+a:visited{
+   color:purple;
+}
+a:hover{
+color: olive;
+}
+#navbar ul{
+  list-style: none;
+  display: flex;
+
+}
+#navbar li{
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+h1, h2, h4{
+  text-align: center;
+
+}
+h2{
+  text-align: center;
+}
+address{
+  text-align: center;
+}
+#introstatement{
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 25px;
+  justify-content: space-evenly;
+  
+}
+#testimonials{
+  font-style: italic;
+}
+#services{
+  font-style: italic;
+}
+#resources{
+  font-style: italic;
+}
+
+.top{
+  text-align: center;
+  margin-top: -15px;
+}
+li{
+  list-style-type:none;
+}
+
+/*img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25%;
+  height:25%;
+  
+}
+*/
+
+
+#skills {
+    text-align: center;
+    margin: 20px;
+  
+}
+.icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icons li {
+    margin: 0 20px; 
+}
+
+.icons img {
+    width: 50px; 
+    height: auto;
+}
+.portfolio img{
+  border-radius: 0%;
+  width: 75%;
+  height:auto;
+  padding: 5px;
+}
+.portfolio-container{
+  
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+.aboutme{
+  
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
