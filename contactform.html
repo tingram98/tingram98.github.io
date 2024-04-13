@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+        display: grid;
+        grid-gap: 10px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #967bb6;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+  </style>
+   <nav id="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="aboutme.html">Skills</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+       <li><a href="contactform.html">Contact</a></li>
+    </ul> 
+    </nav>
+
+<div class="container">
+    <form id="contactForm" action="#" method="post">
+        <h2>Contact</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit" mailto="tiarraingram98@gmail.com">
+    </form>
+</div>
+
+</body>
+</html>
