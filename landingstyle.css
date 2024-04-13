@@ -1,0 +1,80 @@
+body{
+  background-color: #fff;
+}
+
+img{
+  border-radius: 100%;
+  margin:auto;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  padding: auto;
+  width: 50%;
+  height:50%;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+a:visited{
+   color:purple;
+}
+a:hover{
+color: olive;
+}
+#navbar ul{
+  list-style: none;
+  display: flex;
+
+}
+#navbar li{
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+}
+ h1, p{
+  text-align: center;
+}
+
+
+
+.footer-column {
+  display: inline-block;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+img.skills{
+display: inline-block;}    
+img.icon{
+  width: 35px;
+  height:35px;
+  margin: auto;
+  
+  
+}
+div #cta{
+  display: flex;
+  float: right;
+  padding:auto;
+  margin: auto;
+}
+.grid-container{
+  display: inline-block;
+}
+  
